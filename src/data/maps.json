@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "version": "1.0",
+    "patch": "88542",
+    "last_updated": "2025-03-10"
+  },
+  "maps": {
+    "arabia": {
+      "name": "arabia",
+      "display_name": "Arabia",
+      "description": "Open land map with scattered forests. Players start with standard resources.",
+      "type": "land",
+      "openness": "open",
+      "resources": "standard",
+      "recommended_civilizations": {
+        "flank": ["mayans", "britons", "ethiopians", "chinese", "vikings"],
+        "pocket": ["franks", "lithuanians", "huns", "mongols", "persians"]
+      },
+      "strategies": {
+        "early_game": "Scout or archer rush is common. Walling is important but challenging.",
+        "mid_game": "Transition to Knights, Crossbowmen, or unique units.",
+        "late_game": "Control of gold and stone becomes crucial. Raiding is effective."
+      },
+      "popularity": 10
+    },
+    "arena": {
+      "name": "arena",
+      "display_name": "Arena",
+      "description": "Players start fully walled with a stone wall and gate. Encourages booming and late-game strategies.",
+      "type": "land",
+      "openness": "closed",
+      "resources": "standard",
+      "recommended_civilizations": {
+        "flank": ["aztecs", "britons", "mayans", "vietnamese", "byzantines"],
+        "pocket": ["teutons", "turks", "slavs", "celts", "khmer"]
+      },
+      "strategies": {
+        "early_game": "Fast Castle or boom strategies are common. Early aggression is rare.",
+        "mid_game": "Monk and siege play is effective. Building forward castles can be decisive.",
+        "late_game": "Heavy siege and unique unit compositions dominate."
+      },
+      "popularity": 8
+    },
+    "black_forest": {
+      "name": "black_forest",
+      "display_name": "Black Forest",
+      "description": "Heavy forest map with narrow pathways. Encourages defensive play and booming.",
+      "type": "land",
+      "openness": "closed",
+      "resources": "abundant",
+      "recommended_civilizations": {
+        "flank": ["britons", "celts", "vietnamese", "koreans", "teutons"],
+        "pocket": ["goths", "celts", "mongols", "franks", "byzantines"]
+      },
+      "strategies": {
+        "early_game": "Wall the choke points and boom. Early aggression is very rare.",
+        "mid_game": "Control of the center and choke points is crucial.",
+        "late_game": "Heavy siege and trash wars are common. Trade becomes very important."
+      },
+      "popularity": 7
+    },
+    "islands": {
+      "name": "islands",
+      "display_name": "Islands",
+      "description": "Players start on separate islands. Naval control is essential.",
+      "type": "water",
+      "openness": "open",
+      "resources": "standard",
+      "recommended_civilizations": {
+        "flank": ["japanese", "vikings", "italians", "malay", "portuguese"],
+        "pocket": ["spanish", "vikings", "italians", "portuguese", "byzantines"]
+      },
+      "strategies": {
+        "early_game": "Fishing ships and dock placement are crucial. Galley rush is common.",
+        "mid_game": "Control of the water allows for landing and expansion.",
+        "late_game": "Naval control, trade, and landings determine the outcome."
+      },
+      "popularity": 5
+    },
+    "nomad": {
+      "name": "nomad",
+      "display_name": "Nomad",
+      "description": "Players start with villagers scattered on the map without a Town Center.",
+      "type": "land",
+      "openness": "open",
+      "resources": "standard",
+      "recommended_civilizations": {
+        "flank": ["spanish", "persians", "malians", "chinese", "mongols"],
+        "pocket": ["spanish", "persians", "berbers", "mongols", "franks"]
+      },
+      "strategies": {
+        "early_game": "Finding a good TC spot and securing resources is crucial.",
+        "mid_game": "Controlling water (if present) and expanding is important.",
+        "late_game": "Similar to Arabia but with more scattered resources and bases."
+      },
+      "popularity": 6
+    },
+    "gold_rush": {
+      "name": "gold_rush",
+      "display_name": "Gold Rush",
+      "description": "Central gold piles with scattered resources. Encourages early aggression.",
+      "type": "land",
+      "openness": "open",
+      "resources": "concentrated",
+      "recommended_civilizations": {
+        "flank": ["mayans", "aztecs", "huns", "mongols", "britons"],
+        "pocket": ["franks", "huns", "mongols", "persians", "lithuanians"]
+      },
+      "strategies": {
+        "early_game": "Control of the central gold is crucial. Early aggression is common.",
+        "mid_game": "Maintaining control of gold determines the outcome.",
+        "late_game": "If gold is depleted, trash wars become common."
+      },
+      "popularity": 6
+    },
+    "fortress": {
+      "name": "fortress",
+      "display_name": "Fortress",
+      "description": "Players start with a castle and walls. Encourages unique unit play.",
+      "type": "land",
+      "openness": "semi-closed",
+      "resources": "standard",
+      "recommended_civilizations": {
+        "flank": ["britons", "mayans", "aztecs", "vietnamese", "koreans"],
+        "pocket": ["franks", "teutons", "spanish", "byzantines", "persians"]
+      },
+      "strategies": {
+        "early_game": "Unique unit production and expansion are common.",
+        "mid_game": "Control of resources outside the walls becomes important.",
+        "late_game": "Siege and counter-unique unit compositions are effective."
+      },
+      "popularity": 5
+    }
+  }
+}

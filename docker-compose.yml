@@ -1,0 +1,34 @@
+services:
+  bot:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    environment:
+      - TZ=UTC
+    networks:
+      - bot-network
+    # For future database integration
+    # depends_on:
+    #   - db
+
+  # Uncomment for future database integration
+  # db:
+  #   image: postgres:14-alpine
+  #   restart: unless-stopped
+  #   environment:
+  #     - POSTGRES_USER=aoe2bot
+  #     - POSTGRES_PASSWORD=your_secure_password
+  #     - POSTGRES_DB=aoe2_team_balancer
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   networks:
+  #     - bot-network
+
+networks:
+  bot-network:
+    driver: bridge
+# Uncomment for future database integration
+# volumes:
+#   postgres_data:

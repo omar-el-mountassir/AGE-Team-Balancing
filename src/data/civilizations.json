@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "version": "1.0",
+    "patch": "88542",
+    "last_updated": "2025-03-10"
+  },
+  "civilizations": {
+    "britons": {
+      "name": "britons",
+      "display_name": "Britons",
+      "flank_rating": {
+        "tier": "S",
+        "score": 9,
+        "early_game": 7,
+        "mid_game": 9,
+        "late_game": 9
+      },
+      "pocket_rating": {
+        "tier": "B",
+        "score": 6,
+        "early_game": 5,
+        "mid_game": 6,
+        "late_game": 7
+      },
+      "strengths": ["archers", "defense", "economy"],
+      "unique_units": ["Longbowman"],
+      "unique_techs": ["Yeomen", "Warwolf"],
+      "team_bonus": "Archery Ranges work 20% faster",
+      "play_styles": ["defensive", "booming"],
+      "map_ratings": {
+        "arabia": 8,
+        "arena": 7,
+        "black_forest": 8,
+        "islands": 6,
+        "nomad": 5
+      },
+      "synergies": {
+        "franks": 8,
+        "celts": 7,
+        "goths": 6,
+        "byzantines": 7
+      },
+      "counters": {
+        "mayans": 6,
+        "huns": 7,
+        "mongols": 6
+      }
+    },
+    "franks": {
+      "name": "franks",
+      "display_name": "Franks",
+      "flank_rating": {
+        "tier": "A",
+        "score": 7,
+        "early_game": 6,
+        "mid_game": 7,
+        "late_game": 8
+      },
+      "pocket_rating": {
+        "tier": "S",
+        "score": 9,
+        "early_game": 7,
+        "mid_game": 9,
+        "late_game": 9
+      },
+      "strengths": ["cavalry", "economy", "castles"],
+      "unique_units": ["Throwing Axeman"],
+      "unique_techs": ["Chivalry", "Bearded Axe"],
+      "team_bonus": "Knights have +2 line of sight",
+      "play_styles": ["aggressive", "balanced"],
+      "map_ratings": {
+        "arabia": 9,
+        "arena": 8,
+        "black_forest": 7,
+        "islands": 4,
+        "nomad": 7
+      },
+      "synergies": {
+        "britons": 8,
+        "ethiopians": 7,
+        "vietnamese": 7,
+        "byzantines": 6
+      },
+      "counters": {
+        "berbers": 6,
+        "indians": 5,
+        "byzantines": 7
+      }
+    },
+    "mayans": {
+      "name": "mayans",
+      "display_name": "Mayans",
+      "flank_rating": {
+        "tier": "S",
+        "score": 10,
+        "early_game": 8,
+        "mid_game": 9,
+        "late_game": 8
+      },
+      "pocket_rating": {
+        "tier": "B",
+        "score": 6,
+        "early_game": 6,
+        "mid_game": 6,
+        "late_game": 6
+      },
+      "strengths": ["archers", "economy", "early_aggression"],
+      "unique_units": ["Plumed Archer"],
+      "unique_techs": ["Obsidian Arrows", "El Dorado"],
+      "team_bonus": "Walls are 50% cheaper",
+      "play_styles": ["aggressive", "balanced"],
+      "map_ratings": {
+        "arabia": 10,
+        "arena": 7,
+        "black_forest": 6,
+        "islands": 5,
+        "nomad": 7
+      },
+      "synergies": {
+        "franks": 8,
+        "celts": 7,
+        "slavs": 7,
+        "lithuanians": 7
+      },
+      "counters": {
+        "goths": 7,
+        "huns": 6,
+        "britons": 6
+      }
+    },
+    "mongols": {
+      "name": "mongols",
+      "display_name": "Mongols",
+      "flank_rating": {
+        "tier": "A",
+        "score": 8,
+        "early_game": 9,
+        "mid_game": 8,
+        "late_game": 7
+      },
+      "pocket_rating": {
+        "tier": "A",
+        "score": 8,
+        "early_game": 8,
+        "mid_game": 9,
+        "late_game": 7
+      },
+      "strengths": ["cavalry_archers", "scouts", "siege", "hunt"],
+      "unique_units": ["Mangudai"],
+      "unique_techs": ["Nomads", "Drill"],
+      "team_bonus": "Scout Cavalry have +2 line of sight",
+      "play_styles": ["aggressive", "balanced"],
+      "map_ratings": {
+        "arabia": 9,
+        "arena": 6,
+        "black_forest": 5,
+        "islands": 4,
+        "nomad": 8
+      },
+      "synergies": {
+        "britons": 7,
+        "franks": 7,
+        "byzantines": 6,
+        "teutons": 6
+      },
+      "counters": {
+        "goths": 7,
+        "byzantines": 6,
+        "persians": 7
+      }
+    },
+    "byzantines": {
+      "name": "byzantines",
+      "display_name": "Byzantines",
+      "flank_rating": {
+        "tier": "B",
+        "score": 6,
+        "early_game": 6,
+        "mid_game": 6,
+        "late_game": 7
+      },
+      "pocket_rating": {
+        "tier": "A",
+        "score": 7,
+        "early_game": 6,
+        "mid_game": 7,
+        "late_game": 8
+      },
+      "strengths": ["versatility", "defense", "counter_units"],
+      "unique_units": ["Cataphract"],
+      "unique_techs": ["Greek Fire", "Logistica"],
+      "team_bonus": "Monks heal 50% faster",
+      "play_styles": ["defensive", "balanced"],
+      "map_ratings": {
+        "arabia": 7,
+        "arena": 8,
+        "black_forest": 8,
+        "islands": 7,
+        "nomad": 6
+      },
+      "synergies": {
+        "britons": 7,
+        "franks": 6,
+        "mayans": 6,
+        "mongols": 6
+      },
+      "counters": {
+        "franks": 7,
+        "persians": 6,
+        "huns": 6
+      }
+    }
+  }
+}
