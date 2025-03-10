@@ -2,6 +2,8 @@
 
 Un bot Discord pour créer des équipes équilibrées pour les parties multijoueurs d'Age of Empires 2, en tenant compte des classements ELO des joueurs, de leurs préférences de position, et en suggérant des civilisations optimales.
 
+_Lire en [English](README.md)_
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![discord.py](https://img.shields.io/badge/discord.py-2.3.0%2B-blue)](https://discordpy.readthedocs.io/en/stable/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)

@@ -2,6 +2,8 @@
 
 A Discord bot for creating balanced teams for Age of Empires 2 multiplayer games, taking into account player ELO ratings, position preferences, and suggesting optimal civilizations.
 
+_Read this in [Français](README-fr.md)_
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![discord.py](https://img.shields.io/badge/discord.py-2.3.0%2B-blue)](https://discordpy.readthedocs.io/en/stable/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
@@ -71,6 +73,7 @@ This bot helps Age of Empires 2 communities create fair and balanced teams for m
    - `DISCORD_TOKEN`: Your Discord bot token from the Discord Developer Portal
 
 5. **Run the bot**:
+
    ```bash
    python main.py
    ```
